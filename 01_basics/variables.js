@@ -3,7 +3,7 @@ let CustomerEmail = 'mm30303@gmail.com'
 var CustomerName = 'Rahul'
 CustomerCity = 'savarkundla'
 
-CustomerID = 211
+// CustomerID = 211
 
-// console.log(CustomerID);
+ console.log(CustomerID);
 
