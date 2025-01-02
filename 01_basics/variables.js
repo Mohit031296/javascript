@@ -5,7 +5,7 @@ CustomerCity = 'savarkundla'
 
 // CustomerID = 211 // const is not allowed to change value
 
-CustomerEmail = 123@outer.com
+CustomerEmail = '123@outer.com'
 CustomerName = 'Mohit C'
 CustomerCity = 'Rampur'
 
