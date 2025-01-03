@@ -1,3 +1,11 @@
 "use strict"
 
-console.log("Hitesk"); console.log(3+4)
+let CustomerID = 123
+let Name = "Mohit"
+let IsvaluedMember = false
+let regularCustomer = null
+let openEmails
+
+
+
+console.log(typeof IsvaluedMember);
