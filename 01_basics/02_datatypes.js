@@ -9,3 +9,5 @@ let openEmails
 
 
 console.log(typeof IsvaluedMember);
+console.log(typeof openEmails);
+console.log(typeof IsvaluedMember);
