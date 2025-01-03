@@ -9,5 +9,5 @@ let openEmails
 
 
 console.log(typeof IsvaluedMember);
-console.log(typeof openEmails);
-console.log(typeof regularCustomer);
+console.log(typeof openEmails); // It return undefined
+console.log(typeof regularCustomer); // It returns the object (non primitive data type). Someone says it error of js and someone says this is the correct.
