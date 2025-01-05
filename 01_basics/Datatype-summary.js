@@ -38,7 +38,8 @@ let Heros = ["Mohit", "Deep", "Xyz"]
 const StudentInfo = {
 
     Name: "Mohit",
-    Enrollment: 1
+    Enrollment: 1,
+    email: "mm303074@gmail.com"
 
 }
 
@@ -46,5 +47,15 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(myFunction)
-console.log(typeof(myFunction))
+// console.log(myFunction)
+// console.log(typeof(myFunction))
+
+
+
+/* Stack (Primitive) and Heap (Non-Primitive) Memory */
+
+// let FirstName = "Mohit"
+// let FirstNameChange = FirstName
+// FirstNameChange = "Mohit Mehta"
+// console.log(FirstName)
+// console.log(FirstNameChange)
