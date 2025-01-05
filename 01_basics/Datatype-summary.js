@@ -54,8 +54,13 @@ const myFunction = function(){
 
 /* Stack (Primitive) and Heap (Non-Primitive) Memory */
 
-// let FirstName = "Mohit"
-// let FirstNameChange = FirstName
-// FirstNameChange = "Mohit Mehta"
-// console.log(FirstName)
-// console.log(FirstNameChange)
+let FirstName = "Mohit"
+let FirstNameChange = FirstName
+FirstNameChange = "Mohit Mehta"
+console.log(FirstName)
+console.log(FirstNameChange)
+
+let EmailAddr = StudentInfo.email
+let EmailAddr2 = EmailAddr
+EmailAddr2 = "mohitcmehta1@gmail.com"
+console.log(EmailAddr)
