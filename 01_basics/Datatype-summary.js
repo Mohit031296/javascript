@@ -60,7 +60,8 @@ FirstNameChange = "Mohit Mehta"
 console.log(FirstName)
 console.log(FirstNameChange)
 
-let EmailAddr = StudentInfo.email
-let EmailAddr2 = EmailAddr
-EmailAddr2 = "mohitcmehta1@gmail.com"
-console.log(EmailAddr)
+
+let EmailAddr2 = StudentInfo
+EmailAddr2.email = "mohitcmehta1@gmail.com"
+console.log(StudentInfo.email)
+console.log(EmailAddr2.email)

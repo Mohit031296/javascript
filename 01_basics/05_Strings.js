@@ -7,7 +7,7 @@ let LastName = 'Mehta'
 
 
 const FullName = new String("Mohit C Mehta")
-const Profession = "An Engineer"
+const Profession = "   An Engineer"
 // console.log(FullName)
 // console.log(FullName.__proto__) 
 // Prototype you can see this in the browser, it will show {} in the node compiler. But there are lots of property.
@@ -20,7 +20,19 @@ const Profession = "An Engineer"
 // console.log(FullName.slice(1)) // Cut first 5 character and return the remaining string
 // console.log(FullName.substring(0,8));
 // console.log(FullName.substring(8))
-console.log(FullName.toUpperCase());
-console.log(FullName.toLowerCase());
-console.log(FullName.concat(Profession))
-console.log(FullName.trim())
+// console.log(FullName.toUpperCase());
+// console.log(FullName.toLowerCase());
+// console.log(FullName.concat(Profession))
+// console.log(Profession.trim())
+// console.log(FullName.indexOf("o"))
+// console.log(FullName.substring(-4,1))
+// console.log(FullName.slice(-4,1));
+console.log(FullName.indexOf(' '))
+console.log(FullName.replaceAll(' ', '-'))
+console.log(FullName.includes("Meta"))
+console.log(FullName.split(" "))
+
+/* ================Logical Question================== */
+
+let friend = "Deepika"
+console.log(friend.replace("p", "r"));
