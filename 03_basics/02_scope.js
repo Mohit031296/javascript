@@ -19,16 +19,33 @@
 /* Closure */
 
 
-function One(){
-    UserFirstName = "Mohit"
-        function Two(){
-            UserLastName = "Mehta"
-            console.log(`Thank you for joing ${UserFirstName} ${UserLastName}`)
-        }
-        console.log(UserFirstName)
-        console.log(UserLastName)
+// function One(){
+//     UserFirstName = "Mohit"
+//         function Two(){
+//             UserLastName = "Mehta"
+//             console.log(`Thank you for joing ${UserFirstName} ${UserLastName}`)
+//         }
+//         console.log(UserFirstName)
+//         // console.log(UserLastName)
         
-        Two()
-}
-One()
+//         Two()
+// }
+// One()
 
+
+
+// ++++++++++++++++++ interesting ++++++++++++++++++
+
+
+console.log(addone(5))
+
+function addone(num){
+    return num + 1
+}
+
+
+
+addTwo(5)
+const addTwo = function(num){
+    return num + 2
+}
