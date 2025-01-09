@@ -77,3 +77,4 @@ jsUser1.greeting2 = function(){
 }
 
 console.log(jsUser1.greeting2())
+console.log(jsUser1)
