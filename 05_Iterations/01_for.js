@@ -21,8 +21,29 @@
 
 
 /* For loop in array */
-const myHeros = ["ABC", "XYZ", "LMN"]
+// const myHeros = ["ABC", "XYZ", "LMN"]
 
-for(let i = 0; i <= myHeros.length; i++){
-    console.log(array[i])
+// for(let i = 0; i < myHeros.length; i++){
+//     console.log(myHeros[i])
+// }
+
+
+
+/* Break and Countinue */
+
+for (let i = 1; i <= 20; i++) {
+    if(i === 5){
+        console.log(`${i} is the best number`)
+        break; /* It will break and not exexute further */
+    }
+    console.log(i)
+}
+
+
+for (let i = 1; i <= 20; i++) {
+    if(i === 5){
+        console.log(`${i} is the best number`)
+        continue; /* It will skip this part and continue */
+    }
+    console.log(i)
 }
